@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduversity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <section class="sub-header blog-head">
+        <nav>
+            <a href="index.html"><img src="assets/logo.png"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certification and Online Program for 2022</h1>
+
+    </section>
+
+    <!-- Blog page content -->
+    <section class="blog-content">
+
+        <div class="blog-row">
+            <div class="blog-left">
+                <img src="./assets/blog.jpeg">
+                <h2>Our Cerificate & Online Programs For 2022</h2>
+                <p>Let’s face it—the way we do business is changing too fast for most of us to keep up. Professionals
+                    and organizations alike face complex challenges that require highly specific knowledge and skills,
+                    many of which can be hard to acquire on the job.
+                    <br>
+                    But gaining that knowledge through traditional channels, like a graduate degree, requires a
+                    significant investment of time and money.
+                    That’s where online certificate programs come in.
+                </p>
+                <br>
+                <p>Online certificates are credentials earned through virtual academic programs. Compared with degree
+                    programs, they are typically shorter and more targeted, focusing on developing specific skills and
+                    lasting weeks to months rather than years. This condensed format generally comes with a much lower
+                    price tag than a degree.
+                    For many professionals, certificate programs hit the sweet spot of practicality, affordability, and
+                    flexibility. For organizations, they provide an opportunity to upskill or reskill employees quickly
+                    and effectively. </p>
+                <br>
+                <p>First things first—before you enroll in a program of any kind, you will need to identify what you
+                    want to learn and why. Whether you’re in an entry-level role or you’re a C-suite executive, you will
+                    benefit most if you have clear goals when it comes to career progression. </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="10" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="footer">
+        <h4>About Us </h4>
+        <p>Team of Phd Holders who believe in best education and variety of extra curricular activities that enchances
+            the brain.</p>
+        --------------------------<br>
+        <p class="name">Made By <i class="fa fa-heart-o"></i> Shubham Sinha 👨‍💻 </p>
+    </section>
+
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
